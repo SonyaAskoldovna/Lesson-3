@@ -1,0 +1,161 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img{
+    border-radius: 15px;
+}
+.MainProduct{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #f2dfdf;
+    padding: 50px;
+}
+.MImages{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Stars{
+    display: flex;
+    align-items: center;
+}
+.MTitle{
+    font-size: 35px;
+    margin: 0;
+    width: 350px;
+}
+.MPrice{
+    font-size:30px; 
+}
+.Buy{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #6b6161;
+    color: aliceblue;
+}
+.Buttons{
+    display: flex;
+}
+.Move{
+    width: 150px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 0;
+    transition: 1s;
+}
+.Move:hover{
+    background-color: #de9999;
+    transition: 1s;
+    color: #f2dfdf;
+}
+.Main2{
+    background-color: #de9999;
+    height: 500px;
+}
+.FTexts{
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+}
+.FTexts>p{
+    margin-left: 100px;
+}
+.FText{
+    font-weight: 600;
+    margin-left: 100px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+}
+.TextW{
+    width: 800px;
+    text-align: justify;
+}
+.FFoto{
+    margin-left: 350px; 
+}
+.Main3{
+    background-color: #df8585;
+    height: 700px;
+}
+.MText3{
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 70px;
+    font-size: 40px;
+}
+.Ul>ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+.TextUl{
+    font-size: 20px;
+    font-weight: 500;
+}
+.MInput{
+    background-color: #9a4545;
+    color: #f2dfdf;
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 400;
+    width: 250px;
+}
+.All{
+    background-color: #901a1a;
+    color: #f2dfdf;
+    font-size: 20px;
+    margin-top: 35px;
+    font-weight: 400;
+    width: 250px; 
+    height: 50px;
+}
+.FButton{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: #4a2b2b;
+    color: #f2dfdf;
+    padding: 50px 0 50px 0;
+}
+.Logo{
+    font-size: 25px;
+    font-weight: 700;
+}
+.FList{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.FList>ul{
+    list-style: none;
+}
+.Line{
+    width: 75%;
+}
+.FMedia{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.FMedia>img{
+    width: 40px;
+    margin: 0 10px 0 10px;
+}
+.FTitle{
+    font-size: 25px;
+    text-align: center;
+}
+
